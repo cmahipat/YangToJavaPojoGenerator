@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.adtran.yang.parser</groupId>
-  <artifactId>yang2java</artifactId>
+  <groupId>org.adtran.conv</groupId>
+  <artifactId>YangToJavaPojoGenerator</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>yang2java</name>
+  <name>YangToJavaPojoGenerator</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -23,7 +23,7 @@
   				<archive>
   					<manifest>
   						<addClasspath>true</addClasspath>
-  						<mainClass>org.adtran.yang.parser.yang2java.jyang</mainClass>
+  						<mainClass>org.adtran.conv.YangToJavaPojoGenerator.pojo.main.MainApp</mainClass>
   					</manifest>
   				</archive>
   			</configuration>
